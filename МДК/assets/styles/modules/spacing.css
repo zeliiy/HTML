@@ -1,0 +1,12 @@
+.spacing {
+display: grid;
+}
+
+.spacing--x{
+    colump-gap: 40px;
+
+}
+
+.spacing--y{
+    row-gap: 80px;
+}

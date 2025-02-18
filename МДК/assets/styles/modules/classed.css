@@ -1,0 +1,23 @@
+.classed:is(.classed-section) {
+    padding-block: 104px;
+    color: var(--foreground);
+    background-color: var(--gray);
+}
+
+.classed:is(.classed-section) .classed__container {
+    display: grid;
+    row-gap: 80px;
+}
+
+.classed:is(.classed-section) .classed__header {
+    max-width: 816px;
+    margin-inline: auto;
+    display: grid;
+    row-gap: 16px;
+}
+
+
+.classed:is(.classed-section) .classed__header-title {
+
+
+}

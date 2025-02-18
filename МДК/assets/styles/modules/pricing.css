@@ -1,0 +1,34 @@
+.pricing:is(.pricing--section) {
+    padding-block: 104px;
+    color: var(--primary-foreground);
+    background-color: var(--secondary);
+}
+
+.pricing:is(.pricing--section) .pricing__container {
+    display: grid;
+    row-gap: 80px;
+}
+
+.pricing:is(.pricing--section) .pricing__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing:is(.pricing--section) .pricing__header-text {
+    display: grid;
+    max-width: 505px;
+    row-gap: 16px;
+}
+
+.pricing:is(.pricing--section) .pricing__header-title {
+    color: currentColor;
+}
+
+.pricing:is(.pricing--section) .pricing__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: stretch;
+    column-gap: 95px;
+    row-gap: 40px;
+}
